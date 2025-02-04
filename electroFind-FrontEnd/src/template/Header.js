@@ -31,11 +31,7 @@ function Header() {
                 alt="logo"
                 src={lightningImage}
             />
-            {/*<FontAwesomeIcon*/}
-            {/*    icon={['fas', 'ello']}*/}
-            {/*    className="ms-1"*/}
-            {/*    size="lg"*/}
-            {/*/>*/}
+
             <span className="ms-2 h5">MoshiElectronics</span>
           </Link>
 
@@ -49,7 +45,7 @@ function Header() {
             </ul>
 
             {/*Adding A Search Bar*/}
-            <div className="input-group w-auto ">
+            <div className="input-group w-auto ms-auto ">
               <input
                   type="text"
                   className="form-control"
